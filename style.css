@@ -1,0 +1,129 @@
+ 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero-section {
+  text-align: center;
+  padding: 100px 0;
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#features-section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.feature img {
+  max-width: 80px;
+  margin-bottom: 20px;
+}
+
+#testimonials-section {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+}
+
+#contact-form-section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 8px;
+}
